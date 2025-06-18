@@ -25,7 +25,6 @@ import {
 } from "@phosphor-icons/react";
 
 // List of tools that require human confirmation
-// NOTE: this should match the keys in the executions object in tools.ts
 const toolsRequiringConfirmation: (keyof typeof tools)[] = [
   "getWeatherInformation",
 ];
